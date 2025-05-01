@@ -39,7 +39,7 @@ async function bootstrap() {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     } as mongoose.ConnectOptions);
-    console.log('✅ Conectado a MongoDB');
+    console.log(' Conectado a MongoDB');
   } catch (error) {
     console.error(' Error al conectar MongoDB', error);
   }
