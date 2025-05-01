@@ -41,10 +41,10 @@ async function bootstrap() {
     } as mongoose.ConnectOptions);
     console.log('✅ Conectado a MongoDB');
   } catch (error) {
-    console.error('❌ Error al conectar MongoDB', error);
+    console.error(' Error al conectar MongoDB', error);
   }
 
   await app.listen(3000);
-  console.log('🚀 Servidor corriendo en http://localhost:3000');
+  console.log(' Servidor corriendo en http://localhost:3000');
 }
 bootstrap();
